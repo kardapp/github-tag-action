@@ -1,4 +1,4 @@
-FROM artifactory.karolinska.se/github-actions-snapshot/node:16-alpine
+FROM artifactory.kim.karolinska.se/github-actions-snapshot/node:16-alpine
 LABEL "repository"="https://github.com/anothrNick/github-tag-action"
 LABEL "homepage"="https://github.com/anothrNick/github-tag-action"
 LABEL "maintainer"="Nick Sjostrom"

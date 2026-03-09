@@ -3,7 +3,7 @@ description: 'Bump and push git tag on merge'
 author: 'Nick Sjostrom'
 runs:
   using: 'docker'
-  image: 'docker://artifactory.karolinska.se/github-actions-snapshot/github-tag-action:latest'
+  image: 'docker://artifactory.kim.karolinska.se/github-actions-snapshot/github-tag-action:latest'
 outputs:
   new_tag:
     description: 'Generated tag'
@@ -12,5 +12,5 @@ outputs:
   part:
     description: 'The part of version which was bumped'
 branding:
-  icon: 'git-merge'  
+  icon: 'git-merge'
   color: 'purple'
